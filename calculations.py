@@ -1,8 +1,8 @@
-import jax.numpy as jnp
+#import jax.numpy as jnp
 import numpy as np
 import pandas as pd
 import pytest
-from jax import value_and_grad
+#from jax import value_and_grad
 from scipy.optimize import minimize
 from scipy.stats import linregress
 
