@@ -60,7 +60,7 @@ data = st.file_uploader(
 )
 
 if st.button("Use Example Data"):
-    data = "RTA Data 2.xlsx"
+    data = "RTA DATA 2.xlsx"
 
 
 if data is not None:
