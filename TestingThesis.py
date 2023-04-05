@@ -59,6 +59,9 @@ data = st.file_uploader(
     "Submit Excel:     pressure [psi], rate [bbl/day]", type=["xls", "xlsx"]
 )
 
+if st.button("Use Example Data"):
+    data = "RTA Data 2.xlsx"
+
 
 if data is not None:
     # Get slider Data for Cleaning
