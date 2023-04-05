@@ -274,7 +274,7 @@ if data is not None:
                     else:
                         m = results_of_best_split.x[3]
                     #st.write(m)
-                    A = (4 * 19.927 * (bo / m) * math.sqrt((µo / (por * ct)))) / (math.sqrt(k))
+                    A = (4 * 19.927 * (bo / m) * ((µo / (por * ct))))**0.5 / ((k)**0.5)
                     st.write(
                         "Surface Area of Fractures:  "
                         + str(("{:,}".format(round(A))))
