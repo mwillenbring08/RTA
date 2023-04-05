@@ -1,10 +1,10 @@
 import math
 
-import jax.numpy as jnp
+#import jax.numpy as jnp
 import matplotlib.pyplot as plt
 import pandas as pd
 import streamlit as st
-import streamlit.components.v1 as components
+#import streamlit.components.v1 as components
 from matplotlib.offsetbox import AnchoredText
 
 from calculations import (
