@@ -25,9 +25,9 @@ st.set_page_config(page_title="RTA Uncertainty", layout="wide")
 col0, col00, col000 =st.columns(3)
 
 with col0:
-    st.title("Rate Transient Analysis")
+    st.header("Rate Transient Analysis")
 with col000:
-    st.title("By: Matthew Willenbring")
+    st.header("By: Matthew Willenbring")
 
 
 with st.sidebar:
