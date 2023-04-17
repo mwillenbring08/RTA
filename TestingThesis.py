@@ -23,6 +23,7 @@ from calculations import (
 
 st.set_page_config(page_title="RTA Uncertainty", layout="wide")
 st.title("Rate Transient Analysis")
+st.subheader("By: Matthew Willenbring")
 
 
 with st.sidebar:
