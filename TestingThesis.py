@@ -22,12 +22,12 @@ from calculations import (
 )
 
 st.set_page_config(page_title="RTA Uncertainty", layout="wide")
-col0, col00 =st.columns(2)
+col0, col00, col000 =st.columns(3)
 
 with col0:
     st.title("Rate Transient Analysis")
-with col00:
-    st.header("By: Matthew Willenbring")
+with col000:
+    st.title("By: Matthew Willenbring")
 
 
 with st.sidebar:
