@@ -221,12 +221,12 @@ y.set_title("LOG LOG dp/q Plot")
 y.set_xlabel("Material Balance Time")
 y.set_ylabel("dp/q")
 
-anchored_text = AnchoredText(
-    "Slope of LOG Selection: " + str(round(slopelog[0], 5)),
-    loc=2,
-    prop=dict(fontweight="bold"),
-)
-y.add_artist(anchored_text)
+#anchored_text = AnchoredText(
+#    "Slope of LOG Selection: " + str(round(slopelog[0], 5)),
+#    loc=2,
+#    prop=dict(fontweight="bold"),
+#)
+#y.add_artist(anchored_text)
 
 
 
