@@ -206,8 +206,8 @@ df["mixed_curve"] = mix_early_late(
 # color coding region selected
 
 
-x.scatter(df["tmbsqrt"], df["mixed_curve"], color="grey", alpha=0)
-y.scatter(df["tmb"], df["mixed_curve"], color="grey", alpha=0)
+x.scatter(df["tmbsqrt"], df["mixed_curve"], color="grey", alpha=0.2)
+y.scatter(df["tmb"], df["mixed_curve"], color="grey", alpha=0.2)
 # x.plot(xrange, tmbsqr_spline(xrange))
 # z.plot(xrange,der2(xrange))
 
